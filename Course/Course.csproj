@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Enums\**" />
+    <Compile Remove="Entities\NovaPasta\**" />
+    <EmbeddedResource Remove="Entities\Enums\**" />
+    <EmbeddedResource Remove="Entities\NovaPasta\**" />
+    <None Remove="Entities\Enums\**" />
+    <None Remove="Entities\NovaPasta\**" />
+  </ItemGroup>
+
+</Project>
